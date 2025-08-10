@@ -1,0 +1,3 @@
+name: "Firefox Flash Custom"
+image: "skynetdocker88/firefox-flash-esr:v1"
+...
