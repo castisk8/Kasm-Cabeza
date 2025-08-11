@@ -1,3 +1,4 @@
-name: "Firefox Flash Custom"
+name: "Firefox Flash ESR"
 image: "skynetdocker88/firefox-flash-esr:v1"
-...
+description: "Firefox con Flash Player ESR integrado"
+categories: ["Browsers"]
