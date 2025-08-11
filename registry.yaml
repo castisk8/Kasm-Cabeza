@@ -3,6 +3,7 @@ apiVersion: v1beta1
 metadata:
   name: kasm-cabeza-registry
 spec:
-  description: Registro personalizado para mis workspaces
+  description: "Registro personalizado para mis workspaces"
   workspaces:
-    - file: firefox-flash.yaml
+    - name: firefox-flash-esr
+      path: workspaces/firefox-flash-esr/firefox-flash-esr.yaml

@@ -1,0 +1,5 @@
+name: "Firefox Flash ESR"
+image: "skynetdocker88/firefox-flash-esr:v1"
+description: "Firefox ESR con Flash habilitado"
+exec:
+  cmd: "/usr/bin/firefox"
