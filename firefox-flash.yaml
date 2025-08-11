@@ -1,4 +1,12 @@
-name: "Firefox Flash ESR"
-image: "skynetdocker88/firefox-flash-esr:v1"
-description: "Firefox con Flash Player ESR integrado"
-categories: ["Browsers"]
+kind: Workspace
+apiVersion: v1beta1
+metadata:
+  name: firefox-flash-esr
+spec:
+  name: "Firefox Flash ESR"
+  description: "Firefox ESR con Flash Player integrado"
+  image: "skynetdocker88/firefox-flash-esr:v1"
+  categories: ["Browsers"]
+  cores: 1
+  memory: 1024
+  gpu: false

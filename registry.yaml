@@ -4,10 +4,5 @@ metadata:
   name: kasm-cabeza-registry
 spec:
   description: Registro personalizado para mis workspaces
-  images:
-    - name: firefox-flash-esr
-      description: Firefox con flash modificado
-      git:
-        url: https://github.com/castisk8/Kasm-Cabeza.git
-        ref: main
-        path: .
+  workspaces:
+    - file: firefox-flash.yaml
