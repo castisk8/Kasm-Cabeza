@@ -5,5 +5,6 @@ metadata:
 spec:
   description: "Registro personalizado para mis workspaces"
   workspaces:
-    - name: firefox-flash-esr
-      path: workspaces/firefox-flash-esr/firefox-flash-esr.yaml
+    - name: "Firefox Flash ESR"
+      description: "Firefox ESR con Flash habilitado"
+      path: "workspaces/firefox-flash-esr/workspace.yaml"
